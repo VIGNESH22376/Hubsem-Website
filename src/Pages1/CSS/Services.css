@@ -1,0 +1,94 @@
+/* -----------------------------------Row -1 ---------------------------------------------- */
+.service-r1-parallex-img{
+    background-image: url("../../Images1/Services/Services-bg.jpg");
+    width: 100% !important;
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    margin: 0;
+    opacity: 0.2;
+    position: relative;
+}
+
+
+.service-r1-parallex-txt{
+    position: absolute;
+    top: 58%;
+    left: 42%;
+    z-index: 1000;
+    color: #000000;
+    font-size: 46px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+@media screen and (max-width:763px){
+    
+    .service-r1-parallex-img{
+        min-height: 300px;
+        background-size:fill;
+        background-attachment:scroll;
+    }
+    .service-r1-parallex-txt{
+        font-size: 28px;
+        top: 43% ;
+        left: 42%;
+
+    }
+    
+}
+@media screen and (max-width:576px){
+    
+
+    .service-r1-parallex-img{
+        min-height: 250px;
+        background-size:fill;
+        background-attachment:scroll;
+    }
+    .service-r1-parallex-txt{
+        font-size: 28px;
+        top: 38% ;
+        left: 38%;
+
+    }
+    
+}
+
+/* -----------------------------------Row -2 ---------------------------------------------- */
+.service-card-image-top {
+    height: 300px; 
+    width: 100%; 
+    object-fit: fill; /* Use 'cover' to maintain aspect ratio and cover the area */
+}
+
+.r2-para{
+    text-align: center ;
+    color: #000000;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+}
+
+.r2-link{
+    text-decoration: none;
+    color: #000000;
+}
+
+.r2-heading{
+    text-align: center ;
+    
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding-top: 20px;
+    text-decoration: none;
+}
+.r2-div{
+    margin-top: 100px;
+    padding-top: 50px;
+}

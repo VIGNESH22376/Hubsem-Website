@@ -1,0 +1,28 @@
+.whatsapp-logo{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    color: #ffffff ;
+    font-size: 40px;
+    background-color: #25D366;
+    padding: 7px;
+    border-radius: 10px;
+    
+}
+
+
+.whatsapp-content{
+    position: fixed;
+    bottom: 28px;
+    right: 90px;
+    color: #ffffff;
+    background-color: #25D366;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: none;
+}
+.whatsapp-logo:hover+.whatsapp-content{
+   display: block;
+}
+

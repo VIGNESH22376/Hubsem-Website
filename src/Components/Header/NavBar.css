@@ -1,0 +1,173 @@
+
+.active{
+    color: #68b852 !important;
+}
+
+.navbar-change{
+    height: auto;
+    display: flex;
+    background-color: rgb(36, 61, 68) !important;
+}
+.white-logo{
+    display: flex;
+    justify-content: center;
+   padding-right: 50px;
+}
+
+.button-quote{
+    background-color: #68b852 !important;
+    padding: 0px 30px 0px 30px;
+    height: 60px;
+    border: none;
+}
+.quote-text{
+    padding-top: 8px;
+    color: #ffffff !important;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.menu-item{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600 !important;
+   }
+.menu-item-content{
+    font-weight: 600 !important;
+    color: #ffffff ;
+    letter-spacing: 1px !important;
+    background-color: none;
+    text-decoration: none !important;
+    transition: ease 0.5s !important;
+}
+.menu-item-content:hover{
+    color: #68b852 !important;
+}
+.service-button{
+    margin-left:10px;
+}
+.navbar-toggler{
+    border: none !important;
+}
+.menu{ 
+    color: #68b852;
+    font-size: 30px; 
+}
+
+.x-button{
+    background-color: transparent;
+    border: none;
+}
+
+.x-button-content{
+    padding: 10px 20px;
+    background-color: #68b852;
+    color: #ffffff;
+    font-size: 25px
+}
+
+.mobile-item{
+    padding-bottom: 20px !important;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600 !important;
+    color: #000000;
+    transition: ease 0.5s;
+}
+.mobile-item:hover{
+    color: #68b852 !important;
+}
+.mobile-item-services{
+    text-decoration: none !important;
+}
+.internship-mobile{
+    padding-top: 20px !important;
+}
+
+.service-dropdown{
+    background-color: transparent;
+    border: none;
+    padding-top:7px;
+    margin-left: -8px;
+}
+
+.nav-services-menu{
+    position: relative;
+    top: 40px;
+    border-radius: 0;
+    padding: 30px 25px !important;
+    opacity: 0.95;
+    width: 780px;
+}
+.nav-m-services-menu{
+    border: none !important;
+}
+.service-item-heading{
+    font-size: 16px !important;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
+    color: #68b852;
+    font-weight: 600;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.service-item-content{
+    font-size: 14px ;
+    font-weight: 500 !important;
+    font-family: "Poppins", sans-serif !important;
+    letter-spacing: 1px;
+    background-color: none;
+    color: #000000;
+    padding-bottom: 15px !important;
+    transition: ease 0.5s !important;
+}
+.service-item-content:hover{
+    color: #68b852 !important;
+    background-color: white !important;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+.dropdown>.dropdown-toggle:active {
+      pointer-events: none;
+}  
+
+
+.service-dd-btn{
+    margin-left: 10px;
+    padding: 0px 18px !important;
+    border: 1px solid #000000;
+    border-radius: 20px;
+
+}
+.service-dd-btn:hover{
+    border: 1px solid #68b852;
+}
+.service-m-item-content{
+    font-size: 14px ;
+    font-weight: 500 !important;
+    font-family: "Poppins", sans-serif !important;
+    letter-spacing: 1px;
+    background-color: none;
+    color: #000000;
+    transition: ease 0.5s !important;
+    
+    
+}
+.service-m-item-content:hover{
+    color: #68b852 !important;
+    background-color: white !important;
+}
+.service-m-item-heading{
+    font-size: 16px !important;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
+    color: #68b852;
+    font-weight: 600;
+
+}
+
+.whatsapp{
+    width: 40px;
+}

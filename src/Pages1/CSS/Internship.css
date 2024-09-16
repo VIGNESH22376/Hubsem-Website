@@ -1,0 +1,179 @@
+/* -----------------------------------Row -1 ---------------------------------------------- */
+.internship-r1-parallex-img{
+    background-image: url("../../Images1/Internship/Intern-bg.jpg");
+    width: 100% !important;
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    margin: 0;
+    opacity: 0.2;
+    position: relative;
+}
+
+
+.internship-r1-parallex-txt{
+    position: absolute;
+    top: 58%;
+    left: 30%;
+    z-index: 1000;
+    color: #000000;
+    font-size: 46px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+@media screen and (max-width:763px){
+    
+    .internship-r1-parallex-img{
+        min-height: 300px;
+        background-size:fill;
+        background-attachment:scroll;
+    }
+    .internship-r1-parallex-txt{
+        font-size: 28px;
+        top: 43% ;
+        left: 30%;
+
+    }
+    
+}
+@media screen and (max-width:576px){
+    
+
+    .internship-r1-parallex-img{
+        min-height: 300px;
+        background-size:fill;
+        background-attachment:scroll;
+    }
+    .internship-r1-parallex-txt{
+        font-size: 28px;
+        top: 38% ;
+        left: 17%;
+
+    }
+    
+}
+
+/* -----------------------------------Row -2 ---------------------------------------------- */
+
+.internship-r2-para{
+    text-align: center;
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 28px;
+    padding: 100px 100px 60px 100px;
+}
+
+/* -----------------------------------Row -3 ---------------------------------------------- */
+.internship-5th-form{
+    padding: 0px 150px 100px 150px !important;
+}
+
+
+/* PLACEHOLDERS inside input & textarea */
+::placeholder{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: grey !important;
+}
+
+/* input box */
+.internship-r3-input{
+    height: 60px;
+    padding: 0px 30px !important;
+    border: none !important;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #c9c9c9;
+    color: grey !important;
+}
+
+
+.internship-r3-input:focus{
+    outline-style: none !important;
+    box-shadow: 2px 2px 5px #c9c9c9 !important;
+    color: grey !important;
+}
+
+.internship-select-opt:focus{
+    outline-style: none !important;
+    box-shadow: 2px 2px 5px #c9c9c9 !important;
+    color: grey !important;
+
+}
+.internship-select-opt{
+    color: #656464 !important;
+}
+
+
+.internship-form-btn{
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 510;
+    font-family: "Poppins", sans-serif;
+    padding: 12px 30px !important;
+    border: none;
+    border-radius: 5px;
+    background-color: #68B852;
+    transition: .5s ease;
+    margin-top: 30px;
+}
+
+.internship-form-btn:hover{
+    opacity: 0.8;
+}
+
+.was-validated .form-control:valid,
+.was-validated .form-control:invalid,
+.was-validated .form-select:valid,
+.was-validated .form-select:invalid {
+  background-image: none !important;
+}
+
+.internship-interest{
+    color: #595959;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px !important;
+    margin-bottom: -10px !important;
+}
+.error-msg{
+    color: #dc3232;
+    font-size: 16px !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+}
+
+/* for tab and mobile view  */
+@media screen and (max-width:763px){
+    
+    .internship-r2-para{
+        text-align: start;
+        padding: 100px 20px 40px 20px;
+    }
+
+    .internship-5th-form{
+        padding: 0px 20px 100px 20px !important;
+    }
+    
+}
+.bottom-error-msg{
+    margin: 32px 8px 16px !important;
+    border: 2px solid #ffb900;
+    padding: 3.2px 16px !important;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #777777;
+    /* display: none; */
+}
+.bottom-error-msg-para{
+    margin: 0px ;
+}

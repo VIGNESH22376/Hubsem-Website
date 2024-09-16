@@ -1,0 +1,38 @@
+.Little-icon{
+    padding-right: 10px;
+    font-size: 13px;
+    color: #68b852;
+    padding: 13px 5px;
+    /* margin-top: 18px; */
+   
+}
+.social-media{
+    
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.Little-contact-hover{
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    color: #000000;
+    padding: 10px 5px;
+    text-decoration: none;
+    transition: ease 0.5s;
+}
+.App-Icon{
+    font-size: 13px;
+    margin: 0px 10px 0px 10px;
+    color: #68b852;
+    position: relative;
+    top: 0;
+    transition: ease 0.5s;
+}
+.App-Icon:hover{
+    color: #68b852;
+    top: -5px;
+}
+.Little-contact-hover:hover{
+    color: #68b852;
+}

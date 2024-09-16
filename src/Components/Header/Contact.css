@@ -1,0 +1,58 @@
+
+:root{
+    --txt-color:#243D44;
+    --small-txt-color:#070346;
+}
+.contact{
+    margin:10px 0px 0px 0px;
+}
+.contact-icon{
+    font-size: 30px;
+    padding: 10px ;
+    margin: 10px 25px 40px 10px;
+    border: 1px solid #000000;
+    color: var(--txt-color);
+}
+
+.heading{
+    font-weight: 650;
+    font-family: Helvetica, sans-serif;
+    color: var(--txt-color);
+    font-size: 18px;
+    margin: 10px 0px 10px 0px;
+}
+.content{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: var(--small-txt-color);
+}
+
+a:hover{
+    color: var(--small-txt-color);
+}
+.contact-hover{
+    transition: ease 0.5s;
+}
+.contact-hover:hover{
+
+    color: red;
+}
+
+.address{
+    /* margin: 0px 20px 0px 0px; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+
+}
+.address-heading{
+    margin: 0px;
+}
+
+.address p{
+    line-height: 30px;
+}
+.reachus{
+    text-decoration: none;
+    color: var(--small-txt-color);
+}

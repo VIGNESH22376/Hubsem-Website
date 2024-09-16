@@ -1,0 +1,39 @@
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 450;
+    font-size: 15px;
+}
+.icon {
+    background-color: #68b852;
+    padding: 13px 0px;
+    padding-left: 80px;
+    display: flex;
+    justify-content: space-between;
+    color: #ffff;
+    font-size: 15px;
+    }
+
+
+.clock{
+    padding-right: 10px;
+}
+
+.socialmedia{
+    
+    background-color: #68b852;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 1fr;
+    padding-right: 70px;
+    cursor: pointer;
+}
+
+.AppIcon{
+    color: #ffff;
+    position: relative;
+    top: 0;
+    transition: ease 0.5s;
+}
+.AppIcon:hover{
+    color: #ffff;
+    top: -5px;
+}
